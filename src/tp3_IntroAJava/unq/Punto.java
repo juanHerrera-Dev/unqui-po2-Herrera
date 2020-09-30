@@ -61,6 +61,13 @@ public class Punto {
 		this.setX(this.getX()+puntoASumar.getX());
 		this.setY(this.getY()+puntoASumar.getY());
 	}
-
-
+	
+	
+	@Override public boolean equals(Object obj) {
+		if (!(obj instanceof Punto)) {return false;}
+		
+		Punto otroPunto = (Punto) obj;
+		
+		return this.x==(otroPunto.getX()) && this.y==(otroPunto.getY());
+	}
 }
