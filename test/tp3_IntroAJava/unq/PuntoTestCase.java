@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 class PuntoTestCase {
 	
 	Punto punto;
-	
+
 	@BeforeEach
 	void setUp() throws Exception {
 	}
