@@ -3,8 +3,8 @@ package tp3_IntroAJava.unq;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
- 
- 
+
+
 public class Persona {
 
 	private LocalDate fechaDeNacimiento;

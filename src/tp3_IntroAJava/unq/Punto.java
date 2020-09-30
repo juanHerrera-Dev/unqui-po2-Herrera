@@ -1,5 +1,5 @@
 package tp3_IntroAJava.unq;
- 
+
 public class Punto {
 
 	//variables locales

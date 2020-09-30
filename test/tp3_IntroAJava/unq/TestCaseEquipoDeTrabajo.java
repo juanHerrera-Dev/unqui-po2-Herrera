@@ -34,7 +34,7 @@ class TestCaseEquipoDeTrabajo {
 		 equipoA.contratar(empleado4);
 		 equipoA.contratar(empleado5);
 	}
-	 
+	
 
 	@Test
 	void testConstructorEquipo() {

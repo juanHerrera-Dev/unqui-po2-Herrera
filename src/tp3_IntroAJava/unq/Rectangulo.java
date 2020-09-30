@@ -1,6 +1,6 @@
 package tp3_IntroAJava.unq;
 
- 
+
 
 public class Rectangulo {
 

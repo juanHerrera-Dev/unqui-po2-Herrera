@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class EquipoDeTrabajo {
 
-	 
+	
 	private String nombreEquipo;
 	private ArrayList<Persona> empleados;
 	
