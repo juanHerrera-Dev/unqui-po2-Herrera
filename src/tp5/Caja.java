@@ -17,11 +17,19 @@ public class Caja {
 
 
 
-	public void registrarProducto(Producto producto) {
+	/*public void registrarProducto(Producto producto) {
 		
 		this.montoAPagar= this.montoAPagar + producto.getPrecio();
 		
 		producto.disminuirStock();
+	}*/
+
+
+
+	public void registrarCobrable(Cobrable productoCobrable) {
+		
+		this.montoAPagar= this.montoAPagar + productoCobrable.registrarse();
+		
 	}
 
 }

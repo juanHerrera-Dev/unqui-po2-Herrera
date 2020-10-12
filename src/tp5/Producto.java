@@ -1,6 +1,6 @@
 package tp5;
 
-public class Producto {
+public class Producto implements Cobrable{
 	
 	private String nombre;
 	private double precio;
@@ -12,7 +12,7 @@ public class Producto {
 		this.stock=stock;
 	}
 
-	public Object getNombre() {
+	public String getNombre() {
 		
 		return this.nombre;
 	}
@@ -33,5 +33,11 @@ public class Producto {
 		
 	}
 	
+	public double registrarse() {
+		
+		this.disminuirStock();
+		return getPrecio();
+		
+	}
 	
 }
